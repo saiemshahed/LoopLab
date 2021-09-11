@@ -1,0 +1,71 @@
+$backround:#292b2c;
+$font-color:#fff;
+$primary-color:#29779e;
+$icon-icon-font-size:30px;
+
+.navbar {
+    border-bottom: 3px solid $primary-color;
+    background: #292b2c;
+    opacity: 0.7;
+}
+body{
+    background:$backround ;
+    color:$font-color ;
+}
+
+
+
+#home-section{
+    background: url('../img/bodyleft.jpg') no-repeat center top;
+    background-size: cover;
+    min-height: 700px;
+    background-attachment: fixed;
+
+    .dark-overley{
+        background: rgba(0,0,0,0.7);
+        min-height: 700px;
+    }
+
+    .fa{
+        background: #fff;
+        color: $primary-color;
+        padding: 4px;
+        font-size: $icon-icon-font-size;
+        border-radius: 5px;
+    }
+    .card-form{
+        opacity: 0.8;
+    }
+
+    .home-inner{
+        padding-top: 149px;
+        padding-bottom: 50px;
+    }
+}
+
+#explore-main-section{
+    .fa{
+        font-size:$icon-icon-font-size ;
+        background: #333;
+        color: #fff;
+        border-radius: 5px;
+        padding: 4px;
+    }
+}
+
+#create-body-section {
+    .fa{
+        background: #fff;
+        color: $primary-color;
+        padding: 4px;
+        font-size: $icon-icon-font-size;
+        border-radius: 5px;
+    }
+}
+
+
+@media(max-width: 768px){
+    #home-section h1{
+        font-size: 36px;
+    }
+}
